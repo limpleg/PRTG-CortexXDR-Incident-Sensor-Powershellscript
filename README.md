@@ -12,7 +12,7 @@ A PowerShell script that connects to the Cortex XDR REST API, reads incident sta
 3. Identify your Cortex XDR tenant name and region by checking the URL of your Cortex XDR console:  
    `https://<YOURCOMPANY>.xdr.<YOURREGION>.paloaltonetworks.com/login`
 
-4. Download the script `PRTG-XDRCortexIncident.ps1` and place it on your PRTG probe under:  
+4. Download the script [PRTG-XDRCortexIncident.ps1](PRTG-XDRCortexIncident.ps1) and place it on your PRTG probe under:  
    `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
 
 ---
