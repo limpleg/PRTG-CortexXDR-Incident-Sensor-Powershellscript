@@ -1,4 +1,20 @@
-# PRTG Parameter setzen
+<#
+    .SYNOPSIS
+    PRTG Advanced Sensor - Cortex XDR Incidents
+  
+    .DESCRIPTION
+    This Advanced Sensor will monitor and report Cortex XDR Incidents
+        
+    .EXAMPLE
+    PRTG-XDRCortexIncident.ps1
+    .Notes
+    NAME:  PRTG-XDRCortexIncident.ps1
+    AUTHOR: Daniel Weber
+    LASTEDIT: 04.07.2025
+    VERSION: 1.0
+    KEYWORDS: PRTG, Cortex XDR
+#>
+# set PRTG Parameters
  
  param (
     [string]$APIID = $(throw "<prtg><error>1</error><text>-API ID is missing in parameters</text></prtg>"),
