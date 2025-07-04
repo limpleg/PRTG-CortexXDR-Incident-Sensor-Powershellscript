@@ -26,7 +26,6 @@
 #Import PS Module written by https://github.com/lahell/PSCortex?tab=readme-ov-file
 try {
     Import-Module "PSCortex" -ErrorAction Stop
-    #Import-Module "C:\Program Files\WindowsPowerShell\Modules\ExchangeOnlineManagement\2.0.3\ExchangeOnlineManagement.psm1" -ErrorAction Stop
 }
 catch {
     Write-Output "<prtg>"
